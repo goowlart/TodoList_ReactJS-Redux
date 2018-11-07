@@ -21,7 +21,7 @@ class TodoList extends Component {
        this.setState({addNewTodoText: ''});
     };
 
-    render() {
+    render() { //View
         return (
             <div>  
                 <ul>
@@ -41,7 +41,7 @@ class TodoList extends Component {
     }
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = state => ({ //Stats
  todos: state.todos,
 });
 
